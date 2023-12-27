@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amit Zola's Studio</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500;600;700&family=Ranchers&display=swap" rel="stylesheet">
+  </head>
+  
+  <body onload="defaultBackground()">
+    <div class="top">
+    <h1 id="title">This is the music Website</h1>
+    <img alt="music" src="images/all.jpg">
+    <br><br><br>
+    </div>
+    <div class="center">
+      <div id="buttonContainer">
+        <button class="btn1" id="playButton" onclick="showVideo()">piano lesson</button>
+      </div>
+      <button class="btn1 color" onclick="changePageColor()">change background</button>
+      <button class="btn1 color" onclick="defaultBackground()">defalt background</button>
+    </div> 
+    <br><br><br>
+    <div class="center">
+      <iframe id="videoPlayer" width="560" height="315" src="https://www.youtube.com/embed/3j3LkHFJmJE?si=y4qn5owORjdFnNRT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <h2>Let's play some !</h2> 
+    <div>
+      <button class="a do btn">a</button>
+      <button class="s re btn">s</button>
+      <button class="d mi btn">d</button>
+      <button class="h fa btn">h</button>
+      <button class="j sol btn">j</button>
+      <button class="k la btn">k</button>
+      <button class="l si btn">l</button>
+    </div>
+  <script src="index.js"></script>
+  </body>
+  </html>

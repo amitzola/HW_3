@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  
+  h1 {
+    color: #170e1196;
+    font-size: 8rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  h2 {
+    color: #170e1196;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+
+  .btn {
+    outline: none;
+    border: 10px solid #170e1196;
+    font-size: 5rem;
+    font-family:'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #170e1196;
+    text-shadow: 3px 0 #f3f3dbd6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display:inline-flex;
+    cursor: pointer;
+  }
+
+  .btn1 {
+    outline: none;
+    border: 5px solid #170e1196;
+    font-size: 1rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 100;
+    color: #170e1196;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+    display:grid;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
+  }
+
+  .btn1:hover {
+    background-color: #852b0456;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  .color {
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
+  }
+
+  .center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 2px;
+  }
+  
+  .btn:hover {
+    background: #8a7676;
+  }
+
+  .pressed{
+    color:#2c3e50;
+    border: 2px solid #2c3e50;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+  #videoPlayer {
+    display: none;
+}
